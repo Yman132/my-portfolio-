@@ -1,0 +1,544 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+/* General styling for the header */
+header {
+    padding: 20px; /* Padding around the header content */
+    background-color: #f8f9fa; /* Light background color */
+    border: 2px solid orangered; /* Border around the header with orangered color */
+    border-radius: 8px; /* Rounded corners for the header */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+    text-align: center; /* Center the text inside the header */
+}
+
+header .user {
+    display: inline-block; /* Make the user div inline for better alignment */
+    border: 2px solid orangered; /* Border around the user div */
+    padding: 10px; /* Padding inside the user div */
+    border-radius: 8px; /* Rounded corners for the user div */
+    background-color: #fff; /* White background for the user div */
+}
+
+header .user img {
+    border: 2px solid orangered; 
+    border-radius: 50%; /* Make the image circular */
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+}
+
+header .user .name {
+    margin: 10px 0 5px; /* Margin around the name */
+    font-size: 24px; /* Font size for the name */
+    color: #333; /* Text color for the name */
+}
+
+header .user .post {
+    margin: 0; /* Remove margin around the post */
+    font-size: 18px; /* Font size for the post */
+    color: #777; /* Text color for the post */
+}
+
+
+header .user {
+    display: inline-block;
+}
+
+header .user img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+header .user h3 {
+    margin: 10px 0 5px;
+}
+
+header .user p {
+    margin: 0;
+}
+<style>
+    .user {
+        border: 2px solid orangered;
+        padding: 20px;
+        width: 300px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .user img {
+        width: 50%;
+        border-radius: 50%;
+    }
+    .user video {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .user h3.name {
+        color: orangered;
+    }
+    .user p.post {
+        font-size: 1.2em;
+        color: gray;
+    }
+</style>
+
+.navbar {
+    margin-top: 20px;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar ul li a:hover {
+    color: white;
+}
+/* General styling for the navbar */
+.navbar {
+    width: 100%;
+    background-color: black; /* Light background color */
+    border: 2px solid #ccc; /* Border around the navbar */
+    border-radius: 8px; /* Rounded corners for the navbar */
+    padding: 10px; /* Padding inside the navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow for depth */
+}
+
+.navbar ul {
+    list-style-type: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Align items in a row */
+    justify-content: space-around; /* Space out the items evenly */
+}
+
+.navbar li {
+    border: 1px solid #ccc; /* Border around each list item */
+    border-radius: 4px; /* Rounded corners for list items */
+    padding: 5px 10px; /* Padding inside each list item */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.navbar li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Text color */
+    display: block; /* Make the link fill the list item */
+}
+
+.navbar li:hover {
+    background-color: orangered; /* Change background on hover */
+}
+
+/* Optional: Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+    
+    .navbar li {
+        margin-bottom: 5px; /* Space between items when stacked */
+    }
+}
+
+
+/* Home Section */
+.home {
+    padding: 100px 20px;
+    text-align: center;
+    background: #fff;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin: 10px 0;
+}
+
+.home p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+}
+
+.home .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.home .btn:hover {
+    background: #555;
+}
+
+/* About Section */
+.about {
+    background: #e2e2e2;
+    padding: 50px 20px;
+}
+
+.about .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.about .heading span{
+    color: orangered;
+}
+.user video {
+    width: 100px;
+}
+
+
+.about .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.about .info {
+    flex: 1;
+    min-width: 50px;
+    margin: 20px;
+}
+
+.about .info h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.about .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.about .btn:hover {
+    background: #555;
+}
+.about .video-container, .about .photo-container {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.about video, .about img {
+    width: 100%;
+}
+
+/* Education Section */
+.education {
+    padding: 50px 20px;
+    background: #fff;
+}
+
+.education .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.education .heading span{
+    color: orangered;
+}
+
+.education .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.education .box {
+    flex: 1;
+    min-width: 200px;
+    background: #f4f4f4;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.education .box i {
+    font-size: 2rem;
+    color: #333;
+}
+
+.education .box span {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Skills Section */
+.skills {
+    background: gray;
+    padding: 50px 20px;
+}
+
+.skills .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.skills .heading span{
+    color: orangered;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.skills li {
+    margin: 10px 0;
+}
+
+.skills h3 {
+    margin-bottom: 10px;
+}
+
+.skills .bar {
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skills .bar span {
+    display: block;
+    height: 20px;
+}
+
+.skills .html { width: 58%; background: #e34c26; border-radius: 10px; }
+.skills .css { width: 69%; background: #264de4; border-radius: 10px; }
+.skills .python { width: 46%; background: #306998; border-radius: 10px; }
+.skills .javascript { width: 11%; background: #f7e018; border-radius: 10px; }
+
+/*
+.hobbies .heading span{
+    color: orangered;
+}
+
+/* Basic reset and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hobbies {
+    padding: 50px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.heading span {
+    color: #ff6347; /* Accent color */
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.box {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-10px);
+}
+
+.box h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.box p {
+    font-size: 1em;
+    color: #666;
+    line-height: 1.6;
+}
+
+
+/* Photos Section */
+.photos {
+    background: #e2e2e2;
+    padding: 50px 20px;
+}
+
+.photos .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.photos .heading span{
+    color: orangered;
+}
+
+.photos .box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photos .box {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.photos .box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background: #fff;
+    padding: 50px 20px;
+}
+
+.contact .heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.contact .heading span{
+    color: orangered;
+}
+
+.contact .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contact .content {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+}
+
+.contact .content .title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.contact .content .info h3 {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+.contact .form-container {
+    flex: 1;
+    min-width: 300px;
+    margin: 20px;
+}
+
+.contact .form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact .form-container .box {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact .form-container .btn {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.contact .form-container .btn:hover {
+    background: #555;
+}
+
+.top {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    width: 50px;
+}
+
+.top img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about .row, .contact .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
